@@ -55,14 +55,34 @@
                 <li><a class="dropdown-item" href="#">Sakila</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            
+            <li class="nav-item dropdown">
               <a
-                class="nav-link disabled"
+                class="nav-link dropdown-toggle"
                 href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                Features
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="http://localhost:8080">
+                    Pages</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="http://localhost:3000">
+                    Page Elements</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Users</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Permissions</a></li>
+                <li><a class="dropdown-item" href="#">Permission Groups</a></li>
+              </ul>
             </li>
           </ul>
           <form class="d-flex">
