@@ -1,11 +1,27 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="nav" :class="{ darkMode: darkMode }">
+    <br />
+    <NavigationBar />
   </div>
   <router-view />
 </template>
 
+<script>
+import NavigationBar from "@/components/NavigationBar.vue";
+export default {
+  components: {
+    NavigationBar,
+  },
+  data() {
+    return {
+      darkMode: {
+        backgroundColor: "#000000",
+        COLOR: "whitesmoke",
+      },
+    };
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -13,6 +29,16 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #000000;
+}
+body {
+  background-color: #000000;
+}
+.darkMode {
+  background: #000000;
+  color: whitesmoke;
 }
 
 #nav {

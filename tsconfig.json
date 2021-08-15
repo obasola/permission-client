@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/components/menubar/Menubar.vue", "src/components/menubar/AppMenu.vue", "src/components/menubar/Menubar.vue", "src/components/person/EditPerson.vue", "src/components/person/CreatePerson.vue", "src/components/person/ListPerson.vue"  ],
   "exclude": [
     "node_modules"
   ]
