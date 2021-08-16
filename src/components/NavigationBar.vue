@@ -55,7 +55,7 @@
                 <li><a class="dropdown-item" href="#">Sakila</a></li>
               </ul>
             </li>
-            
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -69,19 +69,31 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="http://localhost:8080">
-                    Pages</a
+                  <router-link to="/page" class="dropdown-item"
+                    >Page</router-link
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="http://localhost:3000">
-                    Page Elements</a
+                  <router-link to="/pageElement" class="dropdown-item"
+                    >Page Element</router-link
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Users</a></li>
+                <li>
+                  <router-link to="/persons" class="dropdown-item"
+                    >Users</router-link
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Permissions</a></li>
-                <li><a class="dropdown-item" href="#">Permission Groups</a></li>
+                <li>
+                  <router-link to="/permission" class="dropdown-item"
+                    >Permission</router-link
+                  >
+                </li>
+                <li>
+                  <router-link to="/permissionGroup" class="dropdown-item"
+                    >Permission Group</router-link
+                  >
+                </li>
               </ul>
             </li>
           </ul>

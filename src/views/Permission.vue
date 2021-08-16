@@ -1,4 +1,4 @@
-<template src="./components/Permission.html"></template>
-<script src="./components/Permission.js"></script>
-<style src="./components/Permission.scss" scoped lang="scss"></style>
+<template src="@/components/Permission/Permission.html"></template>
+<script src="@/components/Permission/Permission.js"></script>
+<style src="@/components/Permission/Permission.css" scoped lang="css"></style>
 

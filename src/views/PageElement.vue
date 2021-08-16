@@ -1,4 +1,7 @@
-<template src="./PageElement.html"></template>
-<script src="./PageElement.js"></script>
-<style src="./PageElement.scss" scoped lang="scss"></style>
-
+<template src="@/components/PageElement/PageElement.html"></template>
+<script src="@/components/PageElement/PageElement.js"></script>
+<style
+  src="@/components/PageElement/PageElement.css"
+  scoped
+  lang="css"
+></style>
