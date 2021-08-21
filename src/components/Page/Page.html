@@ -3,17 +3,20 @@
   <h1>components-page Component</h1>
   <form>
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <label for="pageName" class="form-label">Page Name</label>
+      <input type="text" class="form-control" id="pageName" aria-describedby="pageName">      
+    </div>
+    <div class="mb-3">      
+      <Checkbox v-model="checked" :binary="true" />
+      <label for="checkboxActive" class="form-label">Active</label>
+    </div>
+    <div class="mb-3">          
+      <Checkbox v-model="checked" :binary="false" />
+      <label for="checkboxDeleted" class="form-label">Deleted</label>
     </div>
     <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <label for="permGroup" class="form-label">Permission Group</label>
+      <input type="text" class="form-control" id="permGroup" aria-describedby="permGroup">      
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
