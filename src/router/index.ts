@@ -6,6 +6,7 @@ import Person from "@/views/Person.vue";
 import PageElement from "@/views/PageElement.vue";
 import Permission from "@/views/Permission.vue";
 import PermissionGroup from "@/views/PermissionGroup.vue";
+import PermissionDashboard from "@/views/PermissionDashboard.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -42,7 +43,12 @@ const routes: Array<RouteRecordRaw> = [
     path: "/permissionGroup",
     name: "Permission Group",
     component: PermissionGroup,
-  }
+  },
+  {
+    path: "/dashboard",
+    name: "Permission Dashboard",
+    component: PermissionDashboard,
+  },
 
 ];
 

@@ -26,6 +26,11 @@
             <li class="nav-item">
               <a class="nav-link" href="about">About</a>
             </li>
+            <li class="nav-item">
+              <router-link class="nav-link" to="/dashboard">
+                Dashboard
+              </router-link>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"

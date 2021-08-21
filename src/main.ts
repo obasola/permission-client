@@ -22,4 +22,3 @@ app
   .component("TabView", TabView)
   .component("TabPanel", TabPanel)
   .component("Toast", Toast);
-
