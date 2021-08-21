@@ -1,13 +1,11 @@
 
 export default {
-  name: 'page-element',
+  name: "page-element",
   components: {},
   props: [],
   data () {
-    return {
-
-    }
-  }
-}
-
-
+    return {}
+  },
+  computed: {},
+  methods: {},
+};

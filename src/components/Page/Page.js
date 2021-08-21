@@ -1,13 +1,11 @@
 
 export default {
-  name: 'components-page',
+  name: "components-page",
   components: {},
   props: [],
   data () {
-    return {
-
-    }
-  }
-}
-
-
+    return {}
+  },
+  computed: {},
+  methods: {},
+};

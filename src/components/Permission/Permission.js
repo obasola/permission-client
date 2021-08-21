@@ -1,13 +1,11 @@
 
 export default {
-  name: 'components-permission',
+  name: "components-permission",
   components: {},
   props: [],
   data () {
-    return {
-
-    }
-  }
-}
-
-
+    return {}
+  },
+  computed: {},
+  methods: {},
+};
