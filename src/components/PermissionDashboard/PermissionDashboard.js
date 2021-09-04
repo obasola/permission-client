@@ -1,22 +1,10 @@
-
 export default {
-  name: 'components-permission-dashboard',
+  name: "components-permission-dashboard",
   components: {},
   props: [],
-  data () {
-    return {
-
-    }
+  data() {
+    return {};
   },
-  computed: {
-
-  },
-  mounted () {
-
-  },
-  methods: {
-
-  }
-}
-
-
+  computed: {},
+  methods: {},
+};
