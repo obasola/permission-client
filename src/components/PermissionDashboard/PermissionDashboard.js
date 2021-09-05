@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import Page from "./Page/Page";
+
 export default {
   name: "components-permission-dashboard",
   components: {},
@@ -6,5 +9,6 @@ export default {
     return {};
   },
   computed: {},
+  mounted() {},
   methods: {},
 };
