@@ -6,5 +6,5 @@
   src="./components/PermissionDashboard/PermissionDashboard.scss"
   scoped
   lang="scss"
+  setup=""
 ></style>
-
