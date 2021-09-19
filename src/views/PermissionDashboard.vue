@@ -1,9 +1,3 @@
-<template
-  src="@/components/PermissionDashboard/PermissionDashboard.html"
-></template>
-<script src="@/components/PermissionDashboard/PermissionDashboard.js"></script>
-<style
-  src="@/components/PermissionDashboard/PermissionDashboard.css"
-  scoped
-  lang="css"
-></style>
+<template src="@/components/Page/Page.html"></template>
+<script src="@/components/Page/Page.js"></script>
+<style src="@/components/Page/Page.css" scoped lang="css"></style>

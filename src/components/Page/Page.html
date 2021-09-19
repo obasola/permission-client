@@ -1,24 +1,50 @@
-
 <section class="components-page">
-  <h1>components-page Component</h1>
+  <h1>Page Constraints Declaration</h1>
   <form>
-    <div class="mb-3">
+    <div class="forms-control">
       <label for="pageName" class="form-label">Page Name</label>
-      <input type="text" class="form-control" id="pageName" aria-describedby="pageName">      
+      <input
+        type="text"
+        class="form-control-file"
+        id="pageName"
+        aria-describedby="pageName"
+      />
     </div>
-    <div class="mb-3">      
-      <Checkbox v-model="checked" :binary="true" />
-      <label for="checkboxActive" class="form-label">Active</label>
+    <div class="forms-control">
+      <label for="pageName" class="form-label">Effive Datee</label>
+      <input
+        class="form-control-file"
+        type="text"
+        id="pageName"
+        aria-describedby="pageName"
+      />
     </div>
-    <div class="mb-3">          
-      <Checkbox v-model="checked" :binary="false" />
-      <label for="checkboxDeleted" class="form-label">Deleted</label>
+    <div class="forms-control">
+      <label for="pageName" class="form-label">Expiration Date</label>
+      <input
+        type="text"
+        class="form-control-file"
+        id="pageName"
+        aria-describedby="pageName"
+      />
     </div>
-    <div class="mb-3">
-      <label for="permGroup" class="form-label">Permission Group</label>
-      <input type="text" class="form-control" id="permGroup" aria-describedby="permGroup">      
+
+    <div class="form-check form-check-inline">
+      <Checkbox v-model="visible" :binary="false" class="form-check-input" />
+      <label class="form-check-label" for="inlineCheckbox1">Visible</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+
+    <div class="form-check form-check-inline">
+      <Checkbox v-model="enabled" :binary="false" class="form-check-input" />
+      <label class="form-check-label" for="inlineCheckbox1">Enabled</label>
+    </div>
+
+    <div class="forms-control">
+      <label for="permGroup">Permission Group</label>
+      <input type="text" id="permGroup" aria-describedby="permGroup" />
+    </div>
+    <div class="forms-control">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
   </form>
 </section>
-

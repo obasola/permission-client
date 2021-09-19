@@ -74,6 +74,11 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
+                  <router-link to="/petform" class="dropdown-item"
+                    >Pet Form</router-link
+                  >
+                </li>
+                <li>
                   <router-link to="/page" class="dropdown-item"
                     >Page</router-link
                   >

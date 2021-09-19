@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
+import PetForm from "../views/PetForm.vue";
 import Page from "../views/Page.vue";
 import Person from "@/views/Person.vue";
 import PageElement from "@/views/PageElement.vue";
 import Permission from "@/views/Permission.vue";
 import PermissionGroup from "@/views/PermissionGroup.vue";
-import PermissionDashboard from "@/views/PermissionDashboard.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,6 +18,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/petform",
+    name: "PetForm",
+    component: PetForm,
   },
   {
     path: "/page",
@@ -47,7 +52,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/dashboard",
     name: "Permission Dashboard",
-    component: PermissionDashboard,
+    component: Page,
   },
 
 ];

@@ -1,29 +1,29 @@
-import Vue from 'vue';
-import ComponentspermissiondashboardComponent from './index.vue';
+import Vue from "vue";
+import ComponentsPageComponent from "./index.vue";
 
 // Here are some Jasmine 2.0 tests, though you can
 // use any test runner / assertion library combo you prefer
-describe('ComponentspermissiondashboardComponent', () => {
+describe("ComponentsPageComponent", () => {
   // Inspect the raw component options
-  it('has a created hook', () => {
-    // expect(typeof ComponentspermissiondashboardComponent.created).toBe('function');
-  })
+  it("has a created hook", () => {
+    // expect(typeof ComponentsPageComponent.created).toBe('function');
+  });
   // Evaluate the results of functions in
   // the raw component options
-  it('sets the correct default data', () => {
-    // expect(typeof ComponentspermissiondashboardComponent.data).toBe('function')
-    // const defaultData = ComponentspermissiondashboardComponent.data();
+  it("sets the correct default data", () => {
+    // expect(typeof ComponentsPageComponent.data).toBe('function')
+    // const defaultData = ComponentsPageComponent.data();
     // expect(defaultData.message).toBe('hello!');
-  })
+  });
   // Inspect the component instance on mount
-  it('correctly sets the message when created', () => {
-    // const vm = new Vue(ComponentspermissiondashboardComponent).$mount();
+  it("correctly sets the message when created", () => {
+    // const vm = new Vue(ComponentsPageComponent).$mount();
     // expect(vm.message).toBe('bye!');
-  })
+  });
   // Mount an instance and inspect the render output
-  it('renders the correct message', () => {
-    // const Ctor = Vue.extend(ComponentspermissiondashboardComponent);
+  it("renders the correct message", () => {
+    // const Ctor = Vue.extend(ComponentsPageComponent);
     // const vm = new Ctor().$mount();
     // expect(vm.$el.textContent).toBe('bye!');
-  })
-})
+  });
+});
