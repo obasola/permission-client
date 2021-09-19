@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
-import PetForm from "../views/PetForm.vue";
+import SimpleForm from "../views/SimpleForm.vue";
 import Page from "../views/Page.vue";
 import Person from "@/views/Person.vue";
 import PageElement from "@/views/PageElement.vue";
@@ -21,8 +21,8 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/petform",
-    name: "PetForm",
-    component: PetForm,
+    name: "SimpleForm",
+    component: SimpleForm,
   },
   {
     path: "/page",
